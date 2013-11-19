@@ -65,6 +65,17 @@ rbenv rehash
 git clone git://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
 
 
+# Get wget from: http://ftp.gnu.org/gnu/wget/
+gunzip < wget-1.14.tar.gz | tar -xv
+cd wget-1.14
+./configure --with-ssl=openssl
+make
+sudo make install
+which wget
+
+
+
+
 
 # Helpful Sources . . .  
 # http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/

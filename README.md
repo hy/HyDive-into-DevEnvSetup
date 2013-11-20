@@ -73,12 +73,16 @@ make
 sudo make install
 which wget
 
+[see:http://thomashunter.name/blog/install-wget-on-os-x-lion/]
+
+
+
 
 
 
 
 # Helpful Sources . . .  
-# http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/
+http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/
 
 
 

@@ -62,6 +62,10 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 # in .bash_profile, alias b=‘bundle exec’ (optional)
 
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+cd ~/.rbenv/plugins/ruby-build
+git pull
+./install.sh
+
 rbenv install -list
 rbenv install 2.0.0-p247
 rbenv rehash

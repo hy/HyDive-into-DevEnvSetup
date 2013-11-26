@@ -124,6 +124,9 @@ sudo gem install bundler
 
 
 
+# NOTES:
+# [1] The latest ruby-build understands about Macs and openssl
+# [2] The latest ruby-install seems not to . . . 
 
 
 

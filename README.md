@@ -107,6 +107,9 @@ RUBIES=(
 
 sudo ruby-install -i /opt/rubies/2.0.0-p353 ruby 2.0.0-p353
 
+>>> Successfully installed ruby 2.0.0-p353 into /opt/rubies/2.0.0-p353
+
+
 # Comment out the lines in .bash_profile dealing with rbenv
 
 chruby
@@ -117,6 +120,4 @@ chruby
 
 # Helpful Sources . . .  
 http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/
-
-
 

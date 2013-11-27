@@ -124,6 +124,22 @@ sudo gem install bundler
 
 
 
+
+# Finally, install rubinius
+sudo gem install bundler
+wget -O rubinius-release-2.2.1.tar.bz2 http://releases.rubini.us/rubinius-2.2.1.tar.bz2
+tar -xzvf rubinius-release-2.2.1.tar.bz2
+cd rubinius-2.2.1
+sudo bundle install
+./configure --prefix=/opt/rubies/rubinius-2.2.1
+rake build
+sudo rake install
+
+
+
+
+
+
 # NOTES:
 # [1] The latest ruby-build understands about Macs and openssl
 # [2] The latest ruby-install seems not to . . . 

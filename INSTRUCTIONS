@@ -140,6 +140,8 @@ sudo bundle install
 rake build
 sudo rake install
 
+# [From: https://github.com/postmodern/chruby/wiki/Rubinius]
+
 
 
 

@@ -1,0 +1,26 @@
+
+
+# Should be sourced from ~/.bash_profile, so show that happens
+echo "Sourcing bashrc"
+
+
+# This bashrc is only being used by chruby (so far) . . .
+
+# baseline: need this for chruby to function:
+source /usr/local/share/chruby/chruby.sh
+
+# let chruby auto-swap to .ruby_version in current dir or parent
+source /usr/local/share/chruby/auto.sh
+
+# tell chruby where to find the rbenv-installed rubies . . .
+# ruby-install puts rubies into /opt/rubies or ~/.rubies
+
+RUBIES=(
+        ~/.rbenv/versions/*
+        /opt/rubies/*
+)
+
+#end chruby config section of bashrc
+
+#end of bashrc
+

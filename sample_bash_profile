@@ -1,0 +1,22 @@
+# rbenv section of bash_profile
+# disable rbenv for now, using chruby instead. . . 
+
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
+# end rbenv sectino of bash_profile
+
+
+# Aliases:
+
+alias b='bundle exec'
+alias be='bundle exec'
+
+
+# Also source bashrc in addition to this content in bash_profile
+# (See http://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment)
+
+[[ -r ~/.bashrc ]] && . ~/.bashrc
+
+# end bash_profile
+

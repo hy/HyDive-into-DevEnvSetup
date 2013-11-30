@@ -1,5 +1,6 @@
+
 # rbenv section of bash_profile
-# disable rbenv for now, using chruby instead. . . 
+# disable rbenv for now, using chruby instead. . .
 
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
@@ -7,10 +8,14 @@
 # end rbenv sectino of bash_profile
 
 
-# Aliases:
+# Aliases: http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/
 
-alias b='bundle exec'
-alias be='bundle exec'
+alias b="bundle"
+alias bi="b install --path vendor"
+alias bil="bi --local"
+alias bu="b update"
+alias be="b exec"
+alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 
 # Also source bashrc in addition to this content in bash_profile
@@ -19,4 +24,3 @@ alias be='bundle exec'
 [[ -r ~/.bashrc ]] && . ~/.bashrc
 
 # end bash_profile
-

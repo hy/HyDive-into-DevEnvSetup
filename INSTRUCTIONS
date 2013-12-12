@@ -7,6 +7,10 @@ Shortest easy path to diving into development on OS X 10.8.5
 
 
 
+# Turn on File Extensions
+http://www.fileinfo.com/help/mac_show_extensions
+
+
 
 # In Terminal . . .  
 defaults write com.apple.Finder AppleShowAllFiles YES
